@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                                     AuthTokenManager.TOKEN = firebaseToken;
 
                                     progressBar.setVisibility(View.GONE);
-                                    Toast.makeText(LoginActivity.this, "Xác thực cấp cao thành công!", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LoginActivity.this, "Xác thực quyền truy cập thành công!", Toast.LENGTH_SHORT).show();
 
                                     // Chuyển luồng màn hình sang danh sách nhân sự chính
                                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
